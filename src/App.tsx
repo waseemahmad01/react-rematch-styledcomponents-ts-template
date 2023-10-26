@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyles from './theme/GlobalStyles';
-import theme from './theme/theme';
+import theme from './theme';
 
 const App: FC = () => {
   return (
